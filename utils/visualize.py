@@ -52,7 +52,3 @@ def plot_wordcloud(texts):
     ax.axis("off")
     ax.set_title("Most Frequent Words", fontsize=16)
     return fig
-if __name__ == "__main__":
-    sample = "Check out https://example.com! @john loved #AI so much!!!"
-    print("Before:", sample)
-    print("After:", clean_text(sample))
